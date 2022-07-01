@@ -8,7 +8,7 @@ const Navbar = () => {
   return (
     <div className='nav-cont'>
         <img src="./assets/images/logo.svg" alt="logo" className="logo" />
-         <ul className="links-cont" style={{transform :!open?"translateY(0px)":""}}>
+         <ul className="links-cont" style={{transform :open?"translateY(0px)":""}}>
             <li className="feat-cont"><a href="/#"onClick={()=>setItem(!item)} className="feat">Features <FaAngleDown/></a>
             {item ?
                <div className='mini-list'>
