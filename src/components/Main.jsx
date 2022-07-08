@@ -26,9 +26,9 @@ const Main = () => {
          </div>
          <div className="cont-right">
              <div className="cont-right-wrapper">
-                
                 <img src="./assets/images/image-hero-desktop.png" alt="desktop" className="img-right"/>
              </div>
+
          </div>
     </div>
   )
