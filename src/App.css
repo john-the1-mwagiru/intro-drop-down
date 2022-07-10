@@ -233,13 +233,13 @@ sponsors{
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-top: 180px;
+  margin-top: 197px;
 }
 .img-right{
   display: flex;
   justify-content: center;
+  height: 100%;
   width: 90%;
-  height: 90%;
   padding-bottom: 50px;
   padding-right: 20px;
   padding-top: 10px;
@@ -368,7 +368,6 @@ button{
 .sponsors{
   margin-top: 20px;
   margin-bottom: 30px;
-  background-color: aqua;
 }
 .sponsors>img{
   margin-top: 10px;
