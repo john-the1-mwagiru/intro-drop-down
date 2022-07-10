@@ -12,10 +12,10 @@ const Navbar = () => {
             <li className="feat-cont"><a href="/#"onClick={()=>setItem(!item)} className="feat">Features <FaAngleDown/></a>
             {item ?
                <div className='mini-list'>
-               <li><FaClipboardList style={{color:"blue"}}/>Todo List  </li>
-               <li><FaCalendar style={{color:"green"}}/>Calendar</li>
-               <li><FaBell style={{color:"gold"}}/>Reminders</li>
-               <li><FaCopyright style={{color:"purple"}}/>Planning</li>
+               <li className=''><FaClipboardList style={{color:"blue"}}/>Todo List  </li>
+               <li className=''><FaCalendar style={{color:"green"}}/>Calendar</li>
+               <li className=''><FaBell style={{color:"gold"}}/>Reminders</li>
+               <li className=''><FaCopyright style={{color:"purple"}}/>Planning</li>
                </div>:""}
             </li>
             
@@ -39,7 +39,7 @@ const Navbar = () => {
     
    
    <i className="menu" onClick={()=>setOpen(!open)}>
-     <FaBars style={{width:"20px", height:"60%"}}/>
+     <FaBars style={{width:"20px", height:"60%",position:"relative",right:"50px"}}/>
     </i> 
     </div>           
   )

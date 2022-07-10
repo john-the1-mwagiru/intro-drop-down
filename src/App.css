@@ -311,7 +311,7 @@ sponsors{
   .logo{
   width: 11%;
   position: relative;
-  left: 30px;
+  left: 50px;
   } 
   .main-cont{
     flex-direction: column-reverse;
@@ -379,10 +379,10 @@ button{
   visibility: visible;
   display: flex;
   margin-top: 0px;
-  margin-left: 120px;
   align-items: flex-end;
   justify-content:flex-end;
   z-index: 99;
+  
 }
  .links-cont{
   display: flex;
