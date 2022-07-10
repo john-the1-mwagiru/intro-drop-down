@@ -309,8 +309,10 @@ sponsors{
 @media screen and (max-width:486px){
  
   .logo{
-    position: relative;
-  }
+  width: 11%;
+  position: relative;
+  left: 30px;
+  } 
   .main-cont{
     flex-direction: column-reverse;
     justify-content: center;
